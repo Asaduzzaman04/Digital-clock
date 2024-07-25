@@ -9,8 +9,46 @@
     <link rel="stylesheet" href="./input.css">
     <title>Digital-clock</title>
 </head>
-<body>
-    
+<body class=" box-border h-[100vh] flex flex-col justify-center items-center">
+    <!-- =====> main-clock-div <===== -->
+        <div id="container " class=" flex flex-col justify-center items-center z-10">
+                <!-- =====> <clock-name> <===== -->
+                    <div id="name" class="font-serif font-bold text-[250%] text-[#ebeeec] bg-[#6c7ee4] px-14 py-5  shadow-nameShadow rounded-lg  overflow-hidden">
+                        <h2 class="hover:scale-105 transition-all duration-300">Digital clock</h2>
+                    </div>
+                <!-- =====> </clock-name> <===== -->
+
+                <!--=====> <clock-display-section> <=====-->
+                    <div id="clock" class="flex  justify-center  items-center  mt-10 font-serif font-bold text-2xl text-[#ebeeec]">
+                        <!-- <hour-section> -->
+                            <div class= " transition-all duration-300 shadow-nameShadow text-[200%] mx-14 hover:bg-[#6c7ee4] bg-[#485bc4] px-16 pt-10 text-center rounded-md" >
+                                <span id="hour"></span>
+                                <p class=" capitalize mt-10 text-xl  px-3 mb-2 bg-[#212A3E] rounded-md ">Hour</p>
+                            </div>
+                        <!-- </hour-section> -->
+
+                        <!-- <munite-section> -->
+                            <div class=" transition-all duration-300 shadow-nameShadow text-[200%] mx-14 hover:bg-[#6c7ee4]  bg-[#485bc4] px-16 pt-10 text-center rounded-md">
+                                <span id="munite"></span>
+                                <p class=" capitalize mt-10 text-xl  px-3 mb-2 bg-[#212A3E] rounded-md ">munite</p>
+                            </div>
+                        <!-- </munite-section> -->
+
+                        <!-- <second-section> -->
+                            <div class=" transition-all duration-300 shadow-nameShadow text-[200%] mx-14 hover:bg-[#6c7ee4]  bg-[#485bc4] px-16 pt-10 text-center rounded-md">
+                                <span id="second"></span>
+                                <p class=" capitalize mt-10 text-xl  px-3 mb-2 bg-[#212A3E] rounded-md ">second</p>
+                            </div>
+
+                        <!-- </second-section> -->
+                        <!-- =====> <AM/PM> <===== -->
+
+                        <!-- =====> </AM/PM> <===== -->
+
+                    </div>
+                <!-- =====> </clock-display-section> <===== -->
+                    
+        </div>
     <!-- =====> </script link> <===== -->
      <script src="./script.js"></script>
 </body>
