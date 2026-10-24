@@ -2,8 +2,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.40",
-    "tailwindcss": "^3.4.6",
-    "vite": "^5.3.5"
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
   },
   "name": "digital-clock",
   "version": "1.0.0",
@@ -32,7 +32,7 @@
     "eastasianwidth": "^0.2.0",
     "electron-to-chromium": "^1.5.1",
     "emoji-regex": "^9.2.2",
-    "esbuild": "^0.21.5",
+    "esbuild": "^0.28.2",
     "escalade": "^3.1.2",
     "fast-glob": "^3.3.2",
     "fastq": "^1.17.1",
@@ -77,8 +77,8 @@
     "postcss-import": "^15.1.0",
     "postcss-js": "^4.0.1",
     "postcss-load-config": "^4.0.2",
-    "postcss-nested": "^6.2.0",
-    "postcss-selector-parser": "^6.1.1",
+    "postcss-nested": "^9.0.1",
+    "postcss-selector-parser": "^7.1.7",
     "postcss-value-parser": "^4.2.0",
     "queue-microtask": "^1.2.3",
     "read-cache": "^1.0.0",
